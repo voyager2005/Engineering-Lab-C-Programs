@@ -83,13 +83,6 @@ void main()
      scanf("%d", &number_of_days); 
   
      int reference = 0;  
-     // if(start_day == "Sunday") reference = 0; 
-     // else if(start_day == "Monday") reference = 1; 
-     // else if(start_day == "Tuesday") reference = 2;  
-     // else if(start_day == "Wednesday") reference = 3;  
-     // else if(start_day == "Thursday") reference = 4;  
-     // else if(start_day == "Friday") reference = 5;  
-     // else if(start_day == "Saturday") reference = 6;  
      if(strcmp(start_day, days_of_the_week[0]) == 0) reference = 0;  
      else if(strcmp(start_day, days_of_the_week[1]) == 0) reference = 1; 
      else if(strcmp(start_day, days_of_the_week[2]) == 0) reference = 2;  
