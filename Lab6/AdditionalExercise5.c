@@ -1,6 +1,6 @@
-/* /*
+/* 
 WAP to generate the calendar of a month given the start day of the week and the number of days in that month
-*/
+
 
 #include<stdio.h>
 #include<stdbool.h>
