@@ -46,7 +46,6 @@ void main()
     bool is_symmetric = true; 
     for(int i = 0; i < order; i++)
     {
-        printf("Row %d\n", (i+1));
         for(int j = 0; j < order; j++)
         {
             if(matrix[i][j] != transpose_matrix[i][j])
